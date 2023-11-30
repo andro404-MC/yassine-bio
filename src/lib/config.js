@@ -36,7 +36,7 @@ export let items = [
     imageColor : "white",
   },{
     title : "Spotify",
-    paragraph : "LOST",
+    paragraph : "LOST🎧",
     link : "https://open.spotify.com/user/31pq2wyakon5iyao5malhdngk5oy",
     imageLink : "https://untemi.sirv.com/bio/spotify.webp",
     imageColor : "white",
