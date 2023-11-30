@@ -38,7 +38,7 @@ export let items = [
     title : "Spotify",
     paragraph : "LOST",
     link : "https://open.spotify.com/user/31pq2wyakon5iyao5malhdngk5oy",
-    imageLink : "https://yassine.sirv.com/spotify.png",
+    imageLink : "https://yassine.sirv.com/spotify%20(1).png",
     imageColor : "white",
   },
 
