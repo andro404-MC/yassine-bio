@@ -34,5 +34,12 @@ export let items = [
     link : "https://discord.gg/zfQUpaUAFg",
     imageLink : "https://untemi.sirv.com/bio/discord-s.webp",
     imageColor : "white",
+  },{
+    title : "Spotify",
+    paragraph : "LOST",
+    link : "https://open.spotify.com/user/31pq2wyakon5iyao5malhdngk5oy",
+    imageLink : "https://yassine.sirv.com/spotify.png",
+    imageColor : "white",
   },
+
 ]
