@@ -1,32 +1,38 @@
-export let profileLink = "https://avatars.githubusercontent.com/u/94703538?v=4"
-export let name = "Untemi"
-export let favicon = "https://upload.wikimedia.org/wikipedia/commons/6/6e/Svelte_logo_by_gengns.svg"
-export let kofiLink = "https://ko-fi.com/untemi"
+export let profileLink = "https://untemi.sirv.com/bio/lost.jpg"
+export let favicon = "https://untemi.sirv.com/bio/lost-fav.jpg"
+export let name = "Yassine Bidamou"
+export let kofiLink = "https://Ko-fi.com/lo1ys"
 /* image 545x180 */
 export let items = [
   {
+    title : "WhatsApp",
+    paragraph : "+212 61 92 86 716",
+    link : "https://wa.me/+212619286716",
+    imageLink : "https://untemi.sirv.com/bio/whatsapp.webp",
+    imageColor : "white",
+  },{
     title : "Facebook",
-    paragraph : "abdelfettah jalllali",
-    link : "https://facebook.com",
+    paragraph : "Yassine Bidamou",
+    link : "https://www.facebook.com/people/Yassine-Bidamou/pfbid026griYfNkJ56uXvFa9xNT8aN6wSszZBZhmM9zxhmQ1AKMqtx71zTSu6tkKN7LrbgTl/",
     imageLink : "https://untemi.sirv.com/bio/facebook.webp",
     imageColor : "white",
   },{
     title : "Instagram",
-    paragraph : "@untemi",
-    link : "https://instagram.com",
+    paragraph : "@lo1ys",
+    link : "https://www.instagram.com/lo1ys/",
     imageLink : "https://untemi.sirv.com/bio/instagram.webp",
     imageColor : "white",
   },{
     title : "YouTube",
-    paragraph : "@untemi0",
-    link : "https://youtube.com",
+    paragraph : "@LOSTFF3x",
+    link : "https://www.youtube.com/@LOSTFF3x",
     imageLink : "https://untemi.sirv.com/bio/youtube.webp",
     imageColor : "white",
   },{
-    title : "WhatsApp",
-    paragraph : "+212 61 23 45 67 89",
-    link : "https://whatsapp.com",
-    imageLink : "https://untemi.sirv.com/bio/whatsapp.webp",
+    title : "Discord server",
+    paragraph : "SAIKO🌟",
+    link : "https://discord.gg/zfQUpaUAFg",
+    imageLink : "https://untemi.sirv.com/bio/discord-s.webp",
     imageColor : "white",
   },
 ]
