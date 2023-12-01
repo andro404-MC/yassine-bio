@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>{config.name} - bio</title>
+	<title>{config.name} - Bio</title>
   <link rel="icon" href="{config.favicon}" />
 </svelte:head>
 
