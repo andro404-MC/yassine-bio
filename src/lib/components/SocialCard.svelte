@@ -17,7 +17,7 @@
 </script>
 
 {#if added}
-  <a transition:fade={{ duration: 300 }} href="{link}">
+  <a target="_blank" transition:fade={{ duration: 300 }} href="{link}">
     <div class="card bg-base-300 shadow-xl">
       <div class="card-body p-5">
         <h2 class="card-title">{title}</h2>
