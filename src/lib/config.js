@@ -6,7 +6,7 @@ export let kofiLink = "https://paypal.me/YassineBidamou"
 export let items = [
   {
     title : "WhatsApp",
-    paragraph : "+212 61 92 86 716",
+    paragraph : "+212 61 92 86 716📞",
     link : "https://wa.me/+212619286716",
     imageLink : "https://untemi.sirv.com/bio/whatsapp.webp",
     imageColor : "white",
