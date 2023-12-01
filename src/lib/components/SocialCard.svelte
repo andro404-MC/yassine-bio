@@ -1,11 +1,20 @@
 <script>
+  import { onMount } from "svelte";
   export let title;
   export let paragraph;
   export let bg;
   export let link;
   export let imgLink;
+  import { fade } from "svelte/transition";
+  let loaded = false
+  onMount(() => {
+    setTimeout(() => {
+      loaded = true;
+    }, 0.3);
+  });
 </script>
-<a href="{link}">
+{#if loaded}
+<a in:fade={{duration:600}} href="{link}">
   <div class="card bg-base-300 shadow-xl">
     <div class="card-body p-5">
       <h2 class="card-title">{title}</h2>
@@ -16,3 +25,5 @@
     </figure>
   </div>
 </a>
+
+{/if}
