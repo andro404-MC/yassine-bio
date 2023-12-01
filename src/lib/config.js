@@ -1,5 +1,5 @@
 export let profileLink = "https://untemi.sirv.com/bio/lost.jpg"
-export let favicon = "https://yassine.sirv.com/9ac272e5acb040c68f0d2a6c959089ac%20(2).png"
+export let favicon = "https://yassine.sirv.com/9ac272e5acb040c68f0d2a6c959089ac%20(1).png"
 export let name = "Yassine Bidamou"
 export let kofiLink = "https://paypal.me/YassineBidamou"
 /* image 545x180 */
