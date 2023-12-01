@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>{config.name} - Bio</title>
+        <title>{config.name} - bio</title>
   <link rel="icon" href="{config.favicon}" />
 </svelte:head>
 
@@ -34,7 +34,7 @@
       </li>
 
       <li>
-        <a href="/about">
+        <a href="/about" aria-label="about">
           <iconify-icon height="20px" icon="ic:baseline-help"/>
         </a>
       </li>
@@ -43,3 +43,9 @@
 </div>
 
 <slot />
+
+<div class="toast toast-end p-2 sm:p-5">
+  <a href="{config.kofiLink}" class="flex alert alert-success">
+    <span><b>Donate</b></span>
+  </a>
+</div>
