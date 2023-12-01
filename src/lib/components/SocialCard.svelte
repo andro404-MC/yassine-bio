@@ -14,7 +14,7 @@
   });
 </script>
 {#if loaded}
-<a in:fade={{duration:600}} href="{link}">
+<a target="_blank" in:fade={{duration:600}} href="{link}">
   <div class="card bg-base-300 shadow-xl">
     <div class="card-body p-5">
       <h2 class="card-title">{title}</h2>
