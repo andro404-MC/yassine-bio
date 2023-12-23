@@ -1,4 +1,4 @@
-export let profileLink = "https://yassine.sirv.com/IMG_1233.JPG"
+export let profileLink = "https://yassine.sirv.com/ana.png"
 export let favicon = "https://yassine.sirv.com/gyftg.jpg.png"
 export let name = "Yassine Bidamou"
 export let kofiLink = "https://paypal.me/YassineBidamou"
