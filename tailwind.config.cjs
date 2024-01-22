@@ -2,6 +2,7 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ["black","wireframe"],
+    themes: ["wireframe"],
+    //themes: ["black","wireframe"],
   },
 };
