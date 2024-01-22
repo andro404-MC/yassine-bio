@@ -26,11 +26,11 @@
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
       <li>
-        <label class="swap swap-rotate">
+        <! --<label class="swap swap-rotate">
           <input data-toggle-theme="black,wireframe" data-act-class="ACTIVECLASS" type="checkbox" class="theme-controller"/>
           <iconify-icon class="swap-on fill-current" height="20px" icon="ic:baseline-light-mode"/>
           <iconify-icon class="swap-off fill-current" height="20px" icon="ic:baseline-dark-mode"/>
-        </label>
+        </label>-->
       </li>
 
       <li>
