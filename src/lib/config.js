@@ -25,7 +25,7 @@ export let items = [
   },{
     title : "YouTube",
     paragraph : "@LOSTFF3x",
-    link : "https://www.youtube.com/@LOSTFF3x",
+    link : "https://www.youtube.com/c/LOSTFF3x/?sub_confirmation=1",
     imageLink : "https://untemi.sirv.com/bio/youtube.webp",
     imageColor : "white",
   },{
