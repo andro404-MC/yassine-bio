@@ -5,7 +5,7 @@
   ></script>
 </svelte:head>
 
-<div style="view-transition-name: card-{article.id};" class="card p-2 mt-5 mb-5 m-auto w-[95%] h-[100%] bg-base-300 shadow-xl">
+<div style="view-transition-name: about;" class="card p-2 mt-5 mb-5 m-auto w-[95%] h-[100%] bg-base-300 shadow-xl">
   <div class="card-body">
     <h2 class="card-title">About</h2>
       <zero-md src="/about.md">
