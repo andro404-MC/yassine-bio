@@ -47,7 +47,7 @@
         -->
       </li>
 
-      <li style="view-transition-name: card-{article.id};">
+      <li style="view-transition-name: about;">
         <a href="/about" aria-label="about">
           <iconify-icon height="20px" icon="ic:baseline-help"/>
         </a>
