@@ -4,6 +4,18 @@
   import 'iconify-icon'
   import { onMount } from 'svelte'
   import { themeChange } from 'theme-change'
+  import { onNavigate } from "$app/navigation";
+
+  onNavigate((navigation) => {
+    if (!document.startViewTransition) return;
+
+    return new Promise((resolve) => {
+      document.startViewTransition(async () => {
+        resolve();
+        await navigation.complete;
+      });
+    });
+  });
 
   onMount(() => {themeChange(false)})
 </script>
@@ -35,7 +47,7 @@
         -->
       </li>
 
-      <li>
+      <li style="view-transition-name: card-{article.id};">
         <a href="/about" aria-label="about">
           <iconify-icon height="20px" icon="ic:baseline-help"/>
         </a>
